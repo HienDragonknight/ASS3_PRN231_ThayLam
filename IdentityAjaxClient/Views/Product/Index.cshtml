@@ -1,0 +1,264 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-4 fw-bold text-primary">Product Management</h1>
+        <button class="btn btn-danger" onclick="logout()">Logout</button>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="searchInput" placeholder="Search by name...">
+        </div>
+        <div class="col-md-4">
+            <select class="form-select" id="sortSelect">
+                <option value="">Sort by</option>
+                <option value="nameAsc">Name A-Z</option>
+                <option value="nameDesc">Name Z-A</option>
+                <option value="priceAsc">Price Low-High</option>
+                <option value="priceDesc">Price High-Low</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <button class="btn btn-success" id="showFormBtn">Add New Product</button>
+    </div>
+
+    <div id="productFormCard" class="card mb-4 admin-only" style="display:none;">
+        <div class="card-header">
+            <h2 id="formTitle">Add New Product</h2>
+        </div>
+        <div class="card-body">
+            <form id="productForm">
+                <input type="hidden" id="productId" />
+                <div class="mb-3">
+                    <label for="orchidName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="orchidName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <input type="number" class="form-control" id="price" step="0.01" min="0" required>
+                </div>
+                <div class="mb-3">
+                    <label for="orchidUrl" class="form-label">Image URL</label>
+                    <input type="text" class="form-control" id="orchidUrl" required>
+                </div>
+                <div class="mb-3">
+                    <label for="categoryId" class="form-label">Category</label>
+                    <select class="form-select" id="categoryId" required>
+                        <option value="">-- Select Category --</option>
+                        <option value="1">Lan rừng</option>
+                        <option value="2">Lan công nghiệp</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="orchidDescription" class="form-label">Description</label>
+                    <textarea class="form-control" id="orchidDescription" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <button type="button" id="cancelBtn" class="btn btn-secondary">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-striped table-hover table-bordered bg-info bg-opacity-25">
+        <thead class="table-info">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="productList"></tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        let isAdmin = true;
+        let allProducts = [];
+
+        $(document).ready(function () {
+            loadProducts();
+
+            $(document).on('click', '#showFormBtn', function () {
+                $('#productFormCard').slideDown();
+            });
+
+            $(document).on('click', '#cancelBtn', function () {
+                resetForm();
+                $('#productFormCard').slideUp();
+            });
+
+            $(document).on('submit', '#productForm', function (e) {
+                e.preventDefault();
+                saveProduct();
+            });
+
+            $('#searchInput').on('input', function () {
+                renderProducts(filterAndSortProducts());
+            });
+
+            $('#sortSelect').on('change', function () {
+                renderProducts(filterAndSortProducts());
+            });
+        });
+
+        function loadProducts() {
+            $.ajax({
+                url: '/api/product/GetAll',
+                type: 'GET',
+                success: function (products) {
+                    allProducts = products;
+                    renderProducts(filterAndSortProducts());
+                },
+                error: function () {
+                    $('#productList').html('<tr><td colspan="6" class="text-danger">Error loading products</td></tr>');
+                }
+            });
+        }
+
+        function filterAndSortProducts() {
+            let filtered = allProducts;
+            const search = $('#searchInput').val().toLowerCase();
+            const sort = $('#sortSelect').val();
+
+            if (search) {
+                filtered = filtered.filter(p => p.orchidName.toLowerCase().includes(search));
+            }
+
+            if (sort === 'nameAsc') filtered.sort((a, b) => a.orchidName.localeCompare(b.orchidName));
+            else if (sort === 'nameDesc') filtered.sort((a, b) => b.orchidName.localeCompare(a.orchidName));
+            else if (sort === 'priceAsc') filtered.sort((a, b) => a.price - b.price);
+            else if (sort === 'priceDesc') filtered.sort((a, b) => b.price - a.price);
+
+            return filtered;
+        }
+
+        function renderProducts(products) {
+            const tbody = $('#productList');
+            tbody.empty();
+
+            if (!products || products.length === 0) {
+                tbody.html('<tr><td colspan="6" class="text-center">No products available</td></tr>');
+                return;
+            }
+
+            products.forEach(function (product) {
+                if (!product) return;
+
+                const row = `
+                    <tr>
+                        <td>${product.orchidName}</td>
+                        <td>$${product.price?.toFixed(2) ?? 'N/A'}</td>
+                        <td><img src="${product.orchidUrl}" alt="" width="60"/></td>
+                        <td>${product.orchidDescription ?? ''}</td>
+                        <td>${product.categoryId}</td>
+                        <td>
+                            ${isAdmin ?
+                                `<button class="btn btn-sm btn-primary me-2 edit-btn" data-id="${product.orchidId}">Edit</button>
+                                 <button class="btn btn-sm btn-danger" onclick="if(confirm('Are you sure you want to delete this product?')) deleteProduct(${product.orchidId})">Delete</button>` :
+                                `<button class="btn btn-sm btn-info">View Details</button>`
+                            }
+                        </td>
+                    </tr>
+                `;
+                tbody.append(row);
+            });
+
+            $('.edit-btn').click(function () {
+                const id = $(this).data('id');
+                editProduct(id);
+            });
+        }
+
+        function editProduct(id) {
+            $.ajax({
+                url: `/api/product/GetById/${id}`,
+                type: 'GET',
+                success: function (product) {
+                    $('#productId').val(product.orchidId);
+                    $('#orchidName').val(product.orchidName);
+                    $('#price').val(product.price);
+                    $('#orchidUrl').val(product.orchidUrl);
+                    $('#orchidDescription').val(product.orchidDescription);
+                    $('#categoryId').val(product.categoryId);
+                    $('#formTitle').text('Edit Product');
+                    $('#productFormCard').slideDown();
+                },
+                error: function () {
+                    alert('Failed to load product data');
+                }
+            });
+        }
+
+        function saveProduct() {
+            const productId = $('#productId').val();
+            const product = {
+                orchidName: $('#orchidName').val(),
+                price: parseFloat($('#price').val()),
+                orchidUrl: $('#orchidUrl').val(),
+                orchidDescription: $('#orchidDescription').val(),
+                categoryId: parseInt($('#categoryId').val())
+            };
+
+            const url = productId ? `/api/product/Update/${productId}` : '/api/product/Create';
+            const method = productId ? 'PUT' : 'POST';
+
+            $.ajax({
+                url: url,
+                type: method,
+                contentType: 'application/json',
+                data: JSON.stringify(product),
+                success: function () {
+                    resetForm();
+                    $('#productFormCard').slideUp();
+                    loadProducts();
+                },
+                error: function (xhr) {
+                    let errorMessage = 'Failed to save product';
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        errorMessage = xhr.responseJSON.error;
+                    }
+                    alert(errorMessage);
+                }
+            });
+        }
+
+        function deleteProduct(id) {
+            $.ajax({
+                url: `/api/product/Delete/${id}`,
+                type: 'DELETE',
+                success: function () {
+                    loadProducts();
+                },
+                error: function (xhr) {
+                    let errorMessage = 'Failed to delete product';
+                    if (xhr.responseJSON && xhr.responseJSON.error) {
+                        errorMessage = xhr.responseJSON.error;
+                    }
+                    alert(errorMessage);
+                }
+            });
+        }
+
+        function resetForm() {
+            $('#productId').val('');
+            $('#productForm')[0].reset();
+            $('#formTitle').text('Add New Product');
+        }
+
+        function logout() {
+            localStorage.removeItem('jwtToken');
+            localStorage.removeItem('userEmail');
+            localStorage.removeItem('userRole');
+            window.location.href = '/Login';
+        }
+    </script>
+}

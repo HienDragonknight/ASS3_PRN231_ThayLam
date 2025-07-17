@@ -1,0 +1,106 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<section class="vh-100" style="background: linear-gradient(135deg, #56CCF2, #2F80ED);">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+                <div class="card shadow-lg border-0" style="border-radius: 1rem; background: rgba(255, 255, 255, 0.85);">
+                    <div class="row g-0">
+                        <div class="col-md-6 col-lg-5 d-none d-md-block">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                                 alt="register form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                        </div>
+                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                            <div class="card-body p-4 p-lg-5 text-black">
+                                <form id="registerForm">
+                                    <div class="d-flex align-items-center mb-3 pb-1">
+                                        <i class="bi bi-person-plus-fill fa-2x me-3" style="color: #2F80ED;"></i>
+                                        <span class="h1 fw-bold mb-0">Register</span>
+                                    </div>
+
+                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Create your account</h5>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="registerName" class="form-control form-control-lg" placeholder="Full Name" required />
+                                        <label class="form-label" for="registerName">Name</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="registerEmail" class="form-control form-control-lg" placeholder="Email" required />
+                                        <label class="form-label" for="registerEmail">Email</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="registerPassword" class="form-control form-control-lg" placeholder="Password" required />
+                                        <label class="form-label" for="registerPassword">Password</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="confirmPassword" class="form-control form-control-lg" placeholder="Confirm Password" required />
+                                        <label class="form-label" for="confirmPassword">Confirm Password</label>
+                                    </div>
+
+                                    <div class="pt-1 mb-4">
+                                        <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Register</button>
+                                    </div>
+
+                                    <p class="mb-2">
+                                        Already have an account?
+                                        <a asp-controller="Login" asp-action="Index" class="link-primary">Login here</a>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        $('#registerForm').submit(async function (e) {
+            e.preventDefault();
+
+            const name = $('#registerName').val();
+            const email = $('#registerEmail').val();
+            const password = $('#registerPassword').val();
+            const confirmPassword = $('#confirmPassword').val();
+
+            if (password !== confirmPassword) {
+                alert('Passwords do not match!');
+                return;
+            }
+
+            try {
+                const response = await fetch("/Register/Register", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        password: password,
+                        confirmPassword: confirmPassword,
+                        name: name
+                    })
+                });
+
+                const result = await response.json();
+
+                if (!response.ok) {
+                    alert("Registration failed: " + (result.error || "Unknown error"));
+                    return;
+                }
+
+                alert("Registration successful!");
+                window.location.href = "/Login";
+            } catch (err) {
+                alert("Error: " + err.message);
+            }
+        });
+    </script>
+}

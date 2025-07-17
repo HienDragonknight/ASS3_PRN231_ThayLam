@@ -1,0 +1,683 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\orchidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orchidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\dtos\\orchidupdatedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dtos\\orchidupdatedto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\dtos\\orchidcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dtos\\orchidcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\models\\authviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\models\\authviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\identityajaxclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D0AC8B8-E3C1-4E7A-9A53-8742FDC3626B}|IdentityAjaxClient\\IdentityAjaxClient.csproj|solutionrelative:identityajaxclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\controllers\\orchidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\controllers\\orchidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\businessobjects\\entities\\orchid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\orchid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\dataaccess\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\dataaccess\\orchilddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\orchilddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\dataaccess\\data\\mynewstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\mynewstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\projectmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5595C717-CFEA-4A51-81AD-CA23F672A989}|ProjectManagementAPI\\ProjectManagementAPI.csproj|solutionrelative:projectmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\businessobjects\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Program Files23\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\dataaccess\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CDEC2646-753E-4FA4-843D-492618C27739}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\repositories\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB361117-E58D-4837-B3A1-C482380DF6B7}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\businessobjects\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\businessobjects\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\hp\\desktop\\_code_hien\\lab03_idetityajax asp.netcorewebapi\\ass3_newprn232\\businessobjects\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CCD006-A524-407F-903A-2DC19290672B}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:52:57.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Login\\Index.cshtml*",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Login\\Index.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T13:38:47.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAYwAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:31:18.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T01:59:26.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\Register\\Index.cshtml*",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\Register\\Index.cshtml*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T16:34:14.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Repositories\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "Repositories\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:57:07.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T03:19:06.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrchidRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\OrchidRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrchidRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\OrchidRepository.cs",
+              "RelativeToolTip": "Repositories\\OrchidRepository.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwGEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:28:07.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Repositories\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Repositories\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T22:37:01.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrchidUpdateDto .cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\OrchidUpdateDto .cs",
+              "RelativeDocumentMoniker": "Repositories\\DTOs\\OrchidUpdateDto .cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\OrchidUpdateDto .cs",
+              "RelativeToolTip": "Repositories\\DTOs\\OrchidUpdateDto .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:43:37.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrchidCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\OrchidCreateDto.cs",
+              "RelativeDocumentMoniker": "Repositories\\DTOs\\OrchidCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\OrchidCreateDto.cs",
+              "RelativeToolTip": "Repositories\\DTOs\\OrchidCreateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:32:07.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwHAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T01:12:56.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:34:48.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Program.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAG8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:24:36.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAEwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:51:33.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Program.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:29:11.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:02:27.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\appsettings.json",
+              "RelativeToolTip": "IdentityAjaxClient\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T02:31:07.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:47:41.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Models\\AuthViewModels.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Models\\AuthViewModels.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Models\\AuthViewModels.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Models\\AuthViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T22:44:55.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "IdentityAjaxClient\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T00:55:31.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\LoginRepository.cs",
+              "RelativeToolTip": "Repositories\\LoginRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAMwDQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:55:06.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "IdentityAjaxClient\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\IdentityAjaxClient\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "IdentityAjaxClient\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T04:11:38.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrchidController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\OrchidController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\OrchidController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\OrchidController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\OrchidController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:47:10.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ProjectManagementAPI\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:52:45.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T02:24:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Orchid.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Orchid.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Orchid.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Orchid.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\Orchid.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T01:54:35.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AccountDAO.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccess\\AccountDAO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAArwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:52:09.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrchildDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\OrchildDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\OrchildDAO.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\OrchildDAO.cs",
+              "RelativeToolTip": "DataAccess\\OrchildDAO.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T03:18:10.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyNewStoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\Data\\MyNewStoreDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Data\\MyNewStoreDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\Data\\MyNewStoreDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Data\\MyNewStoreDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwCAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:35:22.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProjectManagementAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\ProjectManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProjectManagementAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T01:05:02.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Account.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Account.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\Account.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:47:19.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "E:\\Program Files23\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "E:\\Program Files23\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAMwUAAAAAAAAAAAAAMwUAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-15T06:21:09.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T02:54:44.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\basic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\basic\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\basic\\GenericRepository.cs",
+              "RelativeToolTip": "DataAccess\\basic\\GenericRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAEwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:50:41.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T02:20:16.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Role.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:47:39.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Repositories\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\Repositories\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Repositories\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:59:24.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\Order.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:47:37.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\_code_hien\\Lab03_IdetityAjax ASP.NETCoreWebAPI\\ASS3_NewPRN232\\BusinessObjects\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "BusinessObjects\\Entities\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T02:47:35.274Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

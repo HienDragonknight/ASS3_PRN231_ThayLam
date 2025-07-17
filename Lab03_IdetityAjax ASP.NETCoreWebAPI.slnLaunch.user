@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ProjectManagementAPI\\ProjectManagementAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IdentityAjaxClient\\IdentityAjaxClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
